@@ -1,0 +1,13 @@
+<!DOCTYPE ejb-jar PUBLIC "-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 1.1//EN" "file:///home/rwoollen/weblogic/classes_src_ejb_117jikes/weblogic/ejb11/deployment/xml/ejb-jar.dtd">
+<ejb-jar>
+	<enterprise-beans>
+		<session>
+			<ejb-name>home.statelessHome</ejb-name>
+			<home>wlstest.functional.core.common.apps.simplestateless.SimpleStatelessHome</home>
+			<remote>wlstest.functional.core.common.apps.simplestateless.SimpleStateless</remote>
+			<ejb-class>wlstest.functional.core.common.apps.simplestateless.SimpleStatelessBean</ejb-class>
+			<session-type>Stateless</session-type>
+			<transaction-type>Bean</transaction-type>
+		</session>
+	</enterprise-beans>
+</ejb-jar>
